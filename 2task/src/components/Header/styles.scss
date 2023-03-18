@@ -6,7 +6,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 165px;
+  max-width: 140px;
 
   p {
     font-weight: 300;
@@ -19,6 +19,7 @@ nav {
   display: flex;
   gap: 30px;
   height: fit-content;
+  margin: 4px 0 0 52px;
 }
 
 .contacts {

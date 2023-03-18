@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Button from '../../shared/components/Button/Button'
+
 import Logo from '../../assets/logo.svg'
 import TelegramIcon from '../../assets/telegram.svg'
 import ViberIcon from '../../assets/viber.svg'
@@ -19,25 +21,20 @@ const Header = () => {
       </div>
 
       <nav>
-        <button>Услуги</button>
-        <button>Виджеты</button>
-        <button>Интеграции</button>
-        <button>Кейсы</button>
-        <button>Сертификаты</button>
+        <Button text='Услуги' variant='secondary' />
+        <Button text='Виджеты' variant='secondary' />
+        <Button text='Интеграции' variant='secondary' />
+        <Button text='Кейсы' variant='secondary' />
+        <Button text='Сертификаты' variant='secondary' />
       </nav>
+
       <div className='contacts'>
         <p>+7 555 555 55-55</p>
 
         <div className='contacts__buttons'>
-          <button>
-            <img src={TelegramIcon} alt='Telegram' />
-          </button>
-          <button>
-            <img src={ViberIcon} alt='Viber' />
-          </button>
-          <button>
-            <img src={WhatsAppIcon} alt='WhatsApp' />
-          </button>
+          <Button icon={TelegramIcon} />
+          <Button icon={ViberIcon} />
+          <Button icon={WhatsAppIcon} />
         </div>
       </div>
     </header>

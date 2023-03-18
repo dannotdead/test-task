@@ -1,0 +1,23 @@
+button {
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  border: none;
+  background: #4077f3;
+  color: #e4e5ea;
+  padding: 21px 24px;
+}
+
+.secondary-button {
+  background: transparent;
+  padding: 0;
+}
+
+.icon-button {
+  padding: 0;
+  background: transparent;
+}
