@@ -1,0 +1,41 @@
+header {
+  display: flex;
+}
+
+.branding {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 165px;
+
+  p {
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+  height: fit-content;
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  margin-left: auto;
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 30px;
+    margin-left: 47px;
+  }
+}
