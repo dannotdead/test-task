@@ -1,0 +1,84 @@
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 90px;
+
+  section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    article {
+      display: flex;
+      flex-direction: column;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 58px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+
+  aside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: auto;
+
+    article {
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      text-align: right;
+      max-width: 290px;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__styled-text {
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  &__advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      p {
+        text-transform: uppercase;
+        font-family: 'Inter';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+
+        text-align: right;
+        letter-spacing: 0.05em;
+      }
+
+      span {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+      }
+    }
+  }
+
+  &__consutation-button {
+    margin-top: 60px;
+  }
+}

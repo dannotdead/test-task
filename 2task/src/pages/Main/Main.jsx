@@ -1,5 +1,7 @@
 import React from 'react'
+
 import Header from '../../components/Header/Header'
+import CenteredContent from '../../components/CenteredContent/CenteredContent'
 
 import './styles.scss'
 
@@ -8,7 +10,7 @@ const Main = () => {
     <div className='main'>
       <Header />
 
-      <main>section aside</main>
+      <CenteredContent />
 
       <footer></footer>
     </div>
