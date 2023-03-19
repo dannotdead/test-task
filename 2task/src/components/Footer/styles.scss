@@ -99,6 +99,11 @@ footer {
   .menu {
     &__about {
       margin-right: 0;
+
+      button {
+        font-family: 'Inter';
+        font-weight: 400;
+      }
     }
 
     &__main {
@@ -106,6 +111,8 @@ footer {
 
       button {
         text-align: left;
+        font-family: 'Inter';
+        font-weight: 400;
       }
     }
   }
