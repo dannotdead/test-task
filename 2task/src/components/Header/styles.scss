@@ -38,9 +38,36 @@ nav {
     gap: 30px;
     margin-left: 47px;
   }
+}
 
-  &__footer {
-    gap: 10px;
-    margin-left: 0;
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  .branding {
+    display: none;
+  }
+
+  nav {
+    gap: 16px;
+    padding: 20px 16px;
+    margin: 0;
+    height: 55px;
+		width: 100%;
+		justify-content: space-between;
+    background: #0e1014;
+
+    button {
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      text-transform: uppercase;
+
+      &:last-child {
+        display: none;
+      }
+    }
+  }
+
+  .contacts {
+    display: none;
   }
 }
